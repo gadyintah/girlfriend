@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* body {
+	background-color: #222222;
+} */
+
+.w-100 {
+	width: 100%;
+}
+
+#main {
+	background-image: url(../images/background-purple.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#self_nav{
+	background-color: #8917ac;
+	padding-bottom: 0px;
+	text-shadow: 2px 2px #3b0d28
+}
+
+#title {
+	font-style: normal;
+}
+
+#self_banner {
+	justify-content: center;
+}
+
+#self_heading {
+	height: 100vh;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+	align-content: center;
+	padding-top: 100px;
+}
+
+#about-robert {
+	height: 100vh;
+}
+
+#about-robert .container {
+	max-width: 1500px;
+}
+
+#about-robert .titlepage span {
+	background: crimson !important;
+}
+
+#about-robert h4 {
+	text-shadow: 2px 6px black !important;
+}
+
+#tribute-info {
+	font-size: medium;
+	color: antiquewhite;
+}
+
+#tribute-link {
+	text-shadow: 2px 6px black;
+}
+
+#img-div {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#image {
+	left: auto;
+}
+
+#footer {
+	text-shadow: 2px 2px #ff0000;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	align-items: center;
+}
+
+#footer a{
+	color: antiquewhite !important;
+}
